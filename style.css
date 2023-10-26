@@ -1,0 +1,42 @@
+
+body{
+  background-image: url('https://s3-alpha-sig.figma.com/img/f836/eb0e/1d34eec55816429232d4a7a9ae86a89a?Expires=1699228800&Signature=VL8sJsHdGkXP9ZAHH4uhn-JcR3zDFoX8cUCmL4JKN~5tf3Rs5aIbCDQUwN2mI1ESsioSB~rm4f7MXrPVhE2043ZcZ2tAGsaURsVlf3958EwwVdtWEdF2RChG5I4mltJLX9DgvT4vZMPMzSRcdOjzPV~rcPqFhDFaDTrEtiVGw2I-5ebDgsTjAJ~w11UQ4YCbkedLjlGmv22oyoMt2fz4zJML~1jqaO7aCOFh1EqiL791hITg0O2iVrMc76LsN10m2L7akjHZwpKcmntOzXMAf-yjSrgtQdWYafGjVDuWOeFNcgrqTxaMUVPsjtva5sCDodY08s~VeDKzzQD4JfcNpw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4')
+
+}
+header{
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  
+}
+.foodmood{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.item{
+display: flex;
+flex-direction: row;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 700;
+}
+.rectangle{
+width: 209px;
+height: 48px;
+flex-shrink: 0;
+}
+.p{
+background: var(--yeallow-brand-color, #FC0);
+color: var(--white-secondery-color, #FFF);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 700;
+
+}
