@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
 
 * {
   box-sizing: border-box;
@@ -174,3 +178,19 @@ header {
   right: 355px;
   bottom: -335px;
 }
+.product-cards{
+display: flex;
+flex-direction: row;
+position: absolute;
+margin: 0 auto;
+}
+.product-name{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.product-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
