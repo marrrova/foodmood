@@ -13,13 +13,14 @@ header {
   width: 1440.067px;
   height: 889px;
   margin: 0 auto;
+  position: relative;
 }
 .foodmood {
   color: #fff;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 700;
-  margin-left: 120px;
+  margin-left: 80px;
   margin-top: 45px;
 }
 .col1 {
@@ -29,7 +30,7 @@ header {
   height: 21px;
   flex-shrink: 0;
   position: absolute;
-  margin-left: 400px;
+  margin-left: 443px;
   top: 48px;
 }
 .item {
@@ -47,7 +48,7 @@ header {
   height: 48px;
   background: var(--yeallow-brand-color, #fc0);
   flex-shrink: 0;
-  left: 1200px;
+  left: 1057px;
   top: 35px;
 }
 .p {
@@ -72,8 +73,8 @@ header {
   font-size: 26px;
   font-weight: 700;
   position: absolute;
-  left: -960px;
-  top: 149px;
+  left: -990px;
+  top: 115px;
 }
 .pizza {
   color: #fff;
@@ -81,8 +82,8 @@ header {
   font-size: 64px;
   font-weight: 600;
   position: absolute;
-  left: -960px;
-  top: 213px;
+  left: -990px;
+  top: 179px;
 }
 .ellipse {
   width: 205px;
@@ -91,8 +92,8 @@ header {
   flex-shrink: 0;
   background: var(--yeallow-brand-color, #fc0);
   position: absolute;
-  left: -960px;
-  top: 348px;
+  left: -990px;
+  top: 315px;
 }
 .number {
   display: flex;
@@ -120,8 +121,8 @@ header {
   width: 324px;
   height: 221px;
   position: absolute;
-  left: -700px;
-  top: 348px;
+  left: -757px;
+  top: 305px;
 }
 .info {
   color: #fff;
@@ -135,10 +136,10 @@ header {
   flex-shrink: 0;
   background: var(--yeallow-brand-color, #fc0);
   position: absolute;
-  left: -960px;
-  top: 645px;
+  left: -991px;
+  top: 610px;
 }
-.order{
+.order {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,4 +149,28 @@ header {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 48px;
+}
+.options {
+  width: 424px;
+  height: 109px;
+  margin: 0 auto; 
+  flex-shrink: 0;
+}
+.top {
+  color: var(--yeallow-brand-color, #fc0);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  right: 510px;
+  bottom: -254px;
+}
+.categories {
+  color: var(--black-font-color, #231900);
+  font-family: Poppins;
+  font-size: 55px;
+  font-weight: 600; 
+  position: absolute;
+  right: 355px;
+  bottom: -335px;
 }
