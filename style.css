@@ -1,23 +1,24 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
 * {
   box-sizing: border-box;
 }
 body {
+  font-family: 'Poppins', sans-serif;
   margin: 0 auto;
   padding: 0;
+}
+.container{
+  width: 1440.067px;
+  margin: 0 auto;
 }
 header {
   display: flex;
   background: url("./header-image.png") 100% / cover;
   width: 1440.067px;
   height: 889px;
-  margin: 0 auto;
   position: relative;
+  clip-path: polygon(0 1%, 100% 0, 99% 88%, 83% 91%, 61% 79%, 49% 95%, 34% 87%, 0 77%);
 }
 .foodmood {
   color: #fff;
@@ -194,3 +195,4 @@ justify-content: center;
   align-items: center;
   justify-content: center;
   }
+  
