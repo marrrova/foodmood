@@ -1,42 +1,42 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
-
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0 auto;
-  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-.container{
-  width: 1440.067px;
+.container {
   margin: 0 auto;
+  width: 1600px;
+  height: 2000px;
 }
 header {
-  display: flex;
-  background: url("./header-image.png") 100% / cover;
+  background: url("./Mask group.png") 100% / cover;
+  position: relative;
   width: 1440.067px;
   height: 889px;
-  position: relative;
-  clip-path: polygon(0 1%, 100% 0, 99% 88%, 83% 91%, 61% 79%, 49% 95%, 34% 87%, 0 77%);
 }
-.foodmood {
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.logo {
   color: #fff;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 700;
   margin-left: 80px;
-  margin-top: 45px;
 }
-.col1 {
+.nav {
   display: flex;
   gap: 44px;
   width: 455px;
   height: 21px;
   flex-shrink: 0;
-  position: absolute;
   margin-left: 443px;
-  top: 48px;
 }
 .item {
   display: inline;
@@ -46,49 +46,32 @@ header {
   font-size: 14px;
   font-weight: 700;
 }
-.rectangle {
-  margin: 0 0 0 54px;
-  position: absolute;
+.button {
   width: 209px;
   height: 48px;
   background: var(--yeallow-brand-color, #fc0);
   flex-shrink: 0;
-  left: 1057px;
-  top: 35px;
-}
-.p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 14px;
   color: var(--white-secondery-color, #fff);
   font-family: Poppins;
   font-size: 14px;
   font-weight: 700;
-  margin-bottom: 48px;
+  border: none;
 }
-.start {
-  width: 806px;
-  height: 417px;
-  flex-shrink: 0;
-}
-.only {
+.only{
   color: #fff;
   font-family: Poppins;
   font-size: 26px;
   font-weight: 700;
-  position: absolute;
-  left: -990px;
-  top: 115px;
 }
 .pizza {
   color: #fff;
   font-family: Poppins;
   font-size: 64px;
   font-weight: 600;
-  position: absolute;
-  left: -990px;
-  top: 179px;
+}
+.ellipse-group{
+  display: flex;
+  gap: 29px;
 }
 .ellipse {
   width: 205px;
@@ -96,9 +79,6 @@ header {
   border-radius: 100%;
   flex-shrink: 0;
   background: var(--yeallow-brand-color, #fc0);
-  position: absolute;
-  left: -990px;
-  top: 315px;
 }
 .number {
   display: flex;
@@ -108,7 +88,6 @@ header {
   font-family: Poppins;
   font-size: 63.896px;
   font-weight: 700;
-  margin-top: 16px;
 }
 .discount {
   display: flex;
@@ -118,31 +97,20 @@ header {
   font-family: Poppins;
   font-size: 31.948px;
   font-weight: 700;
-  position: absolute;
-  left: 23px;
-  top: 86px;
 }
-.biginfo {
-  width: 324px;
-  height: 221px;
-  position: absolute;
-  left: -757px;
-  top: 305px;
+.start{
+  height: 789px;
+  padding: 49px 0 196px 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .info {
+  width: 324px;
   color: #fff;
   font-family: Poppins;
   font-size: 36px;
   font-weight: 600;
-}
-.rectangle2 {
-  width: 209px;
-  height: 48px;
-  flex-shrink: 0;
-  background: var(--yeallow-brand-color, #fc0);
-  position: absolute;
-  left: -991px;
-  top: 610px;
 }
 .order {
   display: flex;
@@ -156,43 +124,48 @@ header {
   margin-bottom: 48px;
 }
 .options {
-  width: 424px;
-  height: 109px;
-  margin: 0 auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
 }
-.top {
+.top-text {
   color: var(--yeallow-brand-color, #fc0);
   font-family: Poppins;
   font-size: 18px;
   font-weight: 600;
-  position: absolute;
-  right: 510px;
-  bottom: -254px;
 }
-.categories {
+.main-text {
   color: var(--black-font-color, #231900);
   font-family: Poppins;
   font-size: 55px;
-  font-weight: 600; 
-  position: absolute;
-  right: 355px;
-  bottom: -335px;
+  font-weight: 600;
 }
-.product-cards{
-display: flex;
-flex-direction: row;
-position: absolute;
-margin: 0 auto;
-}
-.product-name{
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.product-info{
+.product-cards {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  }
-  
+  flex-direction: row;
+  gap: 30px;
+  width: 1440.067px;
+  height: 889px;
+  flex-shrink: 0;
+}
+.card-img {
+  width: 277px;
+  height: 502px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+}
+.categories {
+  background: red;
+  height: 621px;
+  width: 1440px;
+  height: 800px;
+  flex-shrink: 0;
+}
+.main-con {
+  width: 1440px;
+  height: 400px;
+  flex-shrink: 0;
+  background: var(--yeallow-brand-color, #fc0);
+}
