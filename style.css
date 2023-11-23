@@ -18,6 +18,10 @@ header {
   width: 1440.067px;
   height: 889px;
 }
+.categories {
+  width: 1440.067px;
+  height: 670px;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -57,7 +61,7 @@ header {
   font-weight: 700;
   border: none;
 }
-.only{
+.only {
   color: #fff;
   font-family: Poppins;
   font-size: 26px;
@@ -69,7 +73,7 @@ header {
   font-size: 64px;
   font-weight: 600;
 }
-.ellipse-group{
+.ellipse-group {
   display: flex;
   gap: 29px;
 }
@@ -98,7 +102,7 @@ header {
   font-size: 31.948px;
   font-weight: 700;
 }
-.start{
+.start {
   height: 789px;
   padding: 49px 0 196px 120px;
   display: flex;
@@ -145,10 +149,10 @@ header {
 .product-cards {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 30px;
   width: 1440.067px;
   height: 889px;
-  flex-shrink: 0;
 }
 .card-img {
   width: 277px;
@@ -156,16 +160,46 @@ header {
   flex-shrink: 0;
   background: url(<path-to-image>), lightgray 50% / contain no-repeat;
 }
-.categories {
-  background: red;
-  height: 621px;
-  width: 1440px;
-  height: 800px;
-  flex-shrink: 0;
+h3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 84px;
 }
-.main-con {
+h4 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 40px;
+}
+
+.block {
   width: 1440px;
   height: 400px;
-  flex-shrink: 0;
   background: var(--yeallow-brand-color, #fc0);
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.picture {
+  margin: 0 0 0 100px;
+  width: 380px;
+  height: 400px;
+  flex-shrink: 0;
+}
+.first-text {
+  display: flex;
+  justify-content: center;
+  padding: 42px 0 0 0;
+}
+.second-text {
+  display: flex;
+  justify-content: center;
+}
+.third-text {
+  display: flex;
+  justify-content: center;
+  padding: 42px 0 0 0;
 }
