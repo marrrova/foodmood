@@ -293,6 +293,7 @@ header {
 .website {
   height: 800px;
   padding: 120px;
+  position: relative;
 }
 .food-container {
   width: 277px;
@@ -314,6 +315,79 @@ header {
   font-weight: 400;
   line-height: normal;
 }
-.eaten{
-  padding: 0 0 0 735px;
+.eaten {
+  position: absolute;
+  right: 120px;
+  top: 108px;
+}
+.people-block {
+  width: 1440.067px;
+  height: 880px;
+  background: var(--white-secondery-color, #fff);
+}
+.top-texte {
+  margin-top: 76px;
+  color: var(--yeallow-brand-color, #fc0);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.main-texte {
+  color: #000;
+  font-family: Poppins;
+  font-size: 55px;
+  font-weight: 600;
+}
+.yellow-line {
+  margin-top: 25px;
+  width: 205px;
+  height: 5px;
+  background: #fc0;
+}
+.people-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  width: 1440.067px;
+  height: 889px;
+  margin-top: 76px;
+}
+.people-img {
+  width: 277px;
+  height: 350px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+  position: absolute;
+}
+.device {
+  background: url("./Rectangle 4579.png") 100% / cover;
+  position: relative;
+  height: 734px;
+  padding: 201px 0 0 121px;
+}
+.big-wite-text {
+  color: var(--white-secondery-color, #fff);
+  font-family: Poppins;
+  font-size: 55px;
+  font-weight: 700;
+}
+.small-wite-text {
+  margin-top: 32px;
+  color: var(--white-secondery-color, #fff);
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 600;
+  width: 584px;
+}
+.rectangle2 {
+  margin-left: 12px;
+}
+.main-rectangle {
+  padding: 73px 0 0 0;
+}
+.mobile-img {
+  position: absolute;
+  right: 120px;
+  top: 65px;
 }
