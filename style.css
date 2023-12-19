@@ -59,6 +59,7 @@ header {
   font-size: 14px;
   font-weight: 700;
   border: none;
+  margin-left: 54px;
 }
 .only {
   color: #fff;
@@ -100,6 +101,18 @@ header {
   font-family: Poppins;
   font-size: 31.948px;
   font-weight: 700;
+}
+.button-1 {
+  width: 209px;
+  height: 48px;
+  background: var(--yeallow-brand-color, #fc0);
+  flex-shrink: 0;
+  color: var(--white-secondery-color, #fff);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  margin-left: px;
 }
 .start {
   height: 789px;
@@ -242,7 +255,6 @@ header {
   height: 563px;
 }
 .website {
-  width: 1440px;
   height: 800px;
   flex-shrink: 0;
   background: var(--white-secondery-color, #fff);
@@ -390,4 +402,121 @@ header {
   position: absolute;
   right: 120px;
   top: 65px;
+}
+.names {
+  position: relative;
+  height: 350px;
+  flex-shrink: 0;
+}
+.widgets {
+  padding: 75px;
+}
+.pic1 {
+  margin-left: 100px;
+}
+
+.footer {
+  height: 586px;
+}
+.list-0{
+  display: flex;
+  flex-direction: column;
+}
+.yellow-food {
+  color: var(--Yeallow-Brand-color, #fc0);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 120px;
+  margin-top: 89px;
+}
+
+.viva {
+  color: var(--black-font-color, #231900);
+  font-size: 17px;
+  font-weight: 400;
+  margin: 50px 940px 336px 120px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: -257px 1200px 257px 120px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 82px;
+  margin: -530px 0 0 530px;
+}
+
+.our {
+  color: var(--black-font-color, #231900);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.colon {
+  color: var(--black-font-color, #231900);
+  font-size: 17px;
+  font-weight: 400;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin: 70px 0 0 -200px;
+}
+
+.list-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 82px;
+  margin: -220px 0 0 787px;
+}
+
+.colon-1 {
+  color: var(--black-font-color, #231900);
+  font-size: 17px;
+  font-weight: 400;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin: 73px 0 0 -200px;
+}
+
+.list-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 82px;
+  margin: -215px 0 0 1043px;
+}
+
+.colon-2 {
+  color: var(--black-font-color, #231900);
+  font-size: 17px;
+  font-weight: 400;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin: 73px 0 0 -255px;
+}
+
+.copy {
+  color: var(--black-font-color, #231900);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 186px 1056px 43px 110px;
+}
+
+.powered {
+  color: var(--black-font-color, #231900);
+  font-size: 18px;
+  font-weight: 400;
+  margin: -85px 119px 43px 1067px;
 }
